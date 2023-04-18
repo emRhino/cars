@@ -25,13 +25,25 @@ const CarForm = () => {
       <form onSubmit={handleSubmit}>
         <div className="field-group">
           <div className="field">
-            <input type="text" value={name} onChange={handleNameChange} />
+            <input
+              className="input"
+              type="text"
+              value={name}
+              onChange={handleNameChange}
+            />
           </div>
           <div className="field">
-            <input type="number" value={cost} onChange={handleCostChange} />
+            <input
+              className="input"
+              type="number"
+              value={cost}
+              onChange={handleCostChange}
+            />
           </div>
           <div className="field">
-            <button type="submit">Add car</button>
+            <button className="button is-success" type="submit">
+              Add car
+            </button>
           </div>
         </div>
       </form>

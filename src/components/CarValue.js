@@ -1,9 +1,5 @@
 const CarValue = () => {
-  return (
-    <div>
-      <h1>CarValue</h1>
-    </div>
-  );
+  return <div className="car-value">Total cost: ${totalCost}</div>;
 };
 
 export default CarValue;
